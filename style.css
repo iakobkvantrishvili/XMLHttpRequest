@@ -1,0 +1,28 @@
+.col-md-11{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 100%;
+}
+.card .card-img{
+  height: 100%;
+  object-fit: cover;
+}
+.text-secondary{
+    width: 400px;
+    height: 400px;
+}
+.loading{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
